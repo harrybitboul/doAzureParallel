@@ -155,6 +155,6 @@ saveRDS(result,
 
 cat(paste0("Error Code: ", workerErrorStatus), fill = TRUE)
 
-quit(save = "yes",
+quit(save = "no",
      status = workerErrorStatus,
      runLast = FALSE)
