@@ -146,6 +146,6 @@ if (typeof(cloudCombine) == "list" && enableCloudCombine) {
   parallel::stopCluster(cluster)
 }
 
-quit(save = "yes",
+quit(save = "no",
      status = status,
      runLast = FALSE)
